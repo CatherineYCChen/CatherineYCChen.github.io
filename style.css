@@ -3,3 +3,14 @@ body{
   margin: 50px;
   font-family: 'Times New Roman', serif;
 }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float:left;
+}
