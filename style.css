@@ -11,6 +11,6 @@ ul{
   overflow: hidden;
 }
 
-li{
-  float:left;
+li a{
+  padding: 20px;
 }
