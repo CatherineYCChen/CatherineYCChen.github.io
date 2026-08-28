@@ -1,151 +1,112 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Catherine Yu-Chi Chen</title>
-
-    <meta name="author" content="Catherine Yu-Chi Chen">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Catherine Yu-Chi Chen">
+    <meta name="description" content="Catherine Yu-Chi Chen - PhD candidate at Stanford working on statistical decision-making and optimization under uncertainty.">
+    <title>Catherine Yu-Chi Chen</title>
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
-
   <body id="about">
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Catherine Yu-Chi Chen
-                </p>
-                <nav aria-label="Page sections" style="text-align:center">
-                  <a href="#about">About</a> &nbsp;/&nbsp;
-                  <a href="#research">Research</a> &nbsp;/&nbsp;
-                  <a href="#teaching">Teaching</a>
-                </nav>
-                <p>Hi! I'm Catherine, a fifth-year PhD student in the <a href="https://icme.stanford.edu">Institute for Computational and Mathematical Engineering (ICME)</a> at <a href = "https://www.stanford.edu">Stanford</a>.
-                </p>
-                <p>
-                  I received my undergraduate degree in <a href="https://datascience.columbia.edu">Data Science</a> - a joint major between Computer Science and Statistics, at <a href = "https://www.columbia.edu">Columbia University</a> in 2022.
-                </p>
-                <p>
-                  This is my website, feel free to browse around :)
-                </p>
-                <p style="text-align:center">
-                  <a href="data/CChen-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/CChen-bio.txt">Bio</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/CatherineYCChen">GitHub</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=iTEl7VsAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/catherine-chen-6b037591/">LinkedIn</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/CChen.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/CChen.JPG" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2 id="research">Research</h2>
-                <p>
-                My research focuses on statistical decision-making and optimization under uncertainty, with an emphasis on risk-sensitive and sequential methods. I develop theoretically grounded algorithms for controlling tail risk and making reliable decisions under distributional uncertainty, with applications including but not limited to, AI, finance, and economics.</p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <div class="page">
+      <aside class="sidebar">
+        <div class="menu-title">menu</div>
+        <nav aria-label="Page sections">
+          <a href="#about">Home</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#teaching">Teaching</a>
+          <a href="data/CChen-CV.pdf">CV</a>
+        </nav>
+      </aside>
 
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/behaviour.png" width = "160">
-              <td width="75%" valign="center">
-          <span class="papertitle">Semi-supervised sequence modeling for improved behavioral segmentation</span>
-        <br>
-        <em>bioRXiv</em>, 2021
-        <br>
-        <em>Advised by <a href = "http://www.stat.columbia.edu/~liam/">Prof. Liam Paninski</a> and 
-          <a href="https://themattinthehatt.github.io/research.html">Matthew Whitway</a> 
-          @ the <a href="https://ctn.zuckermaninstitute.columbia.edu">Zuckerman Institute</a></em>
-        <br>
-        <a href="https://www.biorxiv.org/node/2013046.full">bioRXiv</a>
-        /
-        <a href="https://github.com/CatherineYCChen/daart">code</a>
+      <main class="content">
+        <header class="site-header">
+          <h1>Catherine Yu-Chi Chen</h1>
+        </header>
 
-        <p></p>
-        <p>
-          We introduce a semi-supervised sequence model for behavioural segmentation that takes advantage of weak- and self-supervision.
-          This approach displays superior performance when including a large number of unlabeled frames in the regime of sparse hand labels,
-          and including a small number of hand labeled frames in an unsupervised setting.
-        </p>
-      </td>
-    </tr>
+        <section class="hero" aria-labelledby="intro-heading">
+          <img class="profile-photo" src="images/CChen.JPG" alt="Catherine Yu-Chi Chen">
+          <div class="intro">
+            <h2 id="intro-heading" class="visually-hidden">About</h2>
+            <p>
+              Hi! I'm Catherine, a fifth-year PhD student in the
+              <a href="https://icme.stanford.edu">Institute for Computational and Mathematical Engineering (ICME)</a>
+              at <a href="https://www.stanford.edu">Stanford University</a>.
+            </p>
+            <p>
+              I received my undergraduate degree in
+              <a href="https://datascience.columbia.edu">Data Science</a>, a joint major in Computer Science and Statistics,
+              from <a href="https://www.columbia.edu">Columbia University</a> in 2022.
+            </p>
+            <div class="profile-links" aria-label="Professional profiles">
+              <a href="data/CChen-bio.txt">Bio</a>
+              <a href="https://github.com/CatherineYCChen">GitHub</a>
+              <a href="https://scholar.google.com/citations?user=iTEl7VsAAAAJ&amp;hl=en">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/catherine-chen-6b037591/">LinkedIn</a>
+            </div>
+          </div>
+        </section>
 
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/nycsmart.png" width = "160">
-              <td width="75%" valign="center">
-          <span class="papertitle">Community implications for gun violence prevention during co-occurring pandemics</span>
-        <br>
-        <em>PubMed</em>, 2022
-        <br>
-        <em>Advised by <a href="https://www.engineering.columbia.edu/faculty/shih-fu-chang">Prof. Shih-Fu Chang</a> 
-          and <a href="https://people.cs.vt.edu/chris/">Prof. Chris Thomas</a>
-           @ the <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMMLab</a></em> 
-        <br>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/36162487/">PubMed</a>
-        <p>
-          We develop a natural language processing (NLP) and computer vision (CV) data science system that leverages Twitter data 
-          with multimodal machine learning to automatically identify tweets related to expression of loss and aggression.
-        </p>
-      </td>
-    </tr>
+        <section id="research" class="section">
+          <h2>Research</h2>
+          <p>
+            My research focuses on statistical decision-making and optimization under uncertainty, with an emphasis on risk-sensitive and sequential methods. I develop theoretically grounded algorithms for controlling tail risk and making reliable decisions under distributional uncertainty, with applications including but not limited to, AI, finance, and economics.
+          </p>
+        </section>
 
+        <section id="publications" class="section">
+          <h2>Publications</h2>
 
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr>
-    <td style="padding:20px;width:100%;vertical-align:middle">
-  <h2 id="teaching">Teaching</h2>
-        </td>
-      </tr>
-    </tbody></table>
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2606.00320">Adversarially Robust Control of Conditional Value-at-Risk via Rockafellar-Uryasev Conformal Inference</a></h3>
+            <p><strong>Catherine Yu-Chi Chen</strong>, Jingyan Shen, Zhun Deng, Lihua Lei</p>
+            <p><em>Proceedings of the 43rd International Conference on Machine Learning (ICML)</em>, 2026</p>
+          </article>
 
-  <tr>
-  <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/stanford.png" width = "125">
-        <td width="75%" valign="center">
-    <span class="papertitle">CME 102: Ordinary Differential Equations</span>
-  <br>
-  <em>Fall 2023</em>
-  <br>
-  <p>Analytical and numerical methods for solving ordinary differential equations arising in engineering applications.</p>
-  </td>
-  </tr>
+          <article class="publication">
+            <h3><a href="https://proceedings.mlr.press/v267/chen25bd.html">Conformal Tail Risk Control for Large Language Model Alignment</a></h3>
+            <p><strong>Catherine Yu-Chi Chen</strong>, Jingyan Shen, Zhun Deng, Lihua Lei</p>
+            <p><em>Proceedings of the 42nd International Conference on Machine Learning (ICML)</em>, 2025</p>
+          </article>
 
-  <tr>
-    <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/columbia.png" width = "125">
-          <td width="75%" valign="center">
-      <span class="papertitle">MATH 1102: Calculus II</span>
-    <br>
-    <em>Fall 2021</em>
-    <br>
-    <p>Methods of integration, applications of the integral, Taylors theorem, infinite series.</p>
-    </td>
-    </tr>
+          <h3 class="subsection-title">Preprints</h3>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2607.12345">Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach</a></h3>
+            <p><strong>Catherine Chen</strong>, Chen Gao, Jonathon Hazell, Lihua Lei, Chen Lian</p>
+            <p><em>arXiv preprint arXiv:2607.12345</em>, 2026</p>
+          </article>
+        </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px" valign="center">
-                <br>
-                <p style="text-align:center;font-size:small;">
-                  Design and source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
+        <section id="teaching" class="section">
+          <h2>Teaching</h2>
+
+          <div class="teaching-group">
+            <h3>Instructor</h3>
+            <ul>
+              <li><span>CME 300Q: ICME Qualifying Exams Workshop</span><em>Spring 2024, Spring 2025</em></li>
+              <li><span>CME 192: Introduction to MATLAB</span><em>Winter 2025</em></li>
+            </ul>
+          </div>
+
+          <div class="teaching-group">
+            <h3>Teaching Assistant</h3>
+            <ul>
+              <li><span>CME 241: Reinforcement Learning with Applications in Finance</span><em>Winter 2026</em></li>
+              <li><span>MGTECON 614: Emerging Topic in Econometrics</span><em>Fall 2024, Spring 2026</em></li>
+              <li><span>CME 291: Master's Research</span><em>Fall 2024</em></li>
+              <li><span>CME 102: Ordinary Differential Equations</span><em>Fall 2023</em></li>
+              <li><span>MATH 1102: Multivariate Calculus</span><em>Fall 2021</em></li>
+            </ul>
+          </div>
+        </section>
+
+        <footer>
+          Layout inspired by <a href="https://lihualei71.github.io/index.html">Lihua Lei's website</a>.
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
