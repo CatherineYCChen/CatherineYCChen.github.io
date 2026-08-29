@@ -1,112 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Catherine Yu-Chi Chen">
-    <meta name="description" content="Catherine Yu-Chi Chen - PhD candidate at Stanford working on statistical decision-making and optimization under uncertainty.">
-    <title>Catherine Yu-Chi Chen</title>
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body id="about">
-    <div class="page">
-      <aside class="sidebar">
-        <div class="menu-title">menu</div>
-        <nav aria-label="Page sections">
-          <a href="#about">Home</a>
-          <a href="#research">Research</a>
-          <a href="#publications">Publications</a>
-          <a href="#teaching">Teaching</a>
-          <a href="data/CChen-CV.pdf">CV</a>
-        </nav>
-      </aside>
+---
+layout: default
+title: Homepage
+navbar_title: Home
+---
 
-      <main class="content">
-        <header class="site-header">
-          <h1>Catherine Yu-Chi Chen</h1>
-        </header>
-
-        <section class="hero" aria-labelledby="intro-heading">
-          <img class="profile-photo" src="images/CChen.JPG" alt="Catherine Yu-Chi Chen">
-          <div class="intro">
-            <h2 id="intro-heading" class="visually-hidden">About</h2>
-            <p>
-              Hi! I'm Catherine, a fifth-year PhD student in the
-              <a href="https://icme.stanford.edu">Institute for Computational and Mathematical Engineering (ICME)</a>
-              at <a href="https://www.stanford.edu">Stanford University</a>.
-            </p>
-            <p>
-              I received my undergraduate degree in
-              <a href="https://datascience.columbia.edu">Data Science</a>, a joint major in Computer Science and Statistics,
-              from <a href="https://www.columbia.edu">Columbia University</a> in 2022.
-            </p>
-            <div class="profile-links" aria-label="Professional profiles">
-              <a href="data/CChen-bio.txt">Bio</a>
-              <a href="https://github.com/CatherineYCChen">GitHub</a>
-              <a href="https://scholar.google.com/citations?user=iTEl7VsAAAAJ&amp;hl=en">Google Scholar</a>
-              <a href="https://www.linkedin.com/in/catherine-chen-6b037591/">LinkedIn</a>
-            </div>
-          </div>
-        </section>
-
-        <section id="research" class="section">
-          <h2>Research</h2>
-          <p>
-            My research focuses on statistical decision-making and optimization under uncertainty, with an emphasis on risk-sensitive and sequential methods. I develop theoretically grounded algorithms for controlling tail risk and making reliable decisions under distributional uncertainty, with applications including but not limited to, AI, finance, and economics.
-          </p>
-        </section>
-
-        <section id="publications" class="section">
-          <h2>Publications</h2>
-
-          <article class="publication">
-            <h3><a href="https://arxiv.org/abs/2606.00320">Adversarially Robust Control of Conditional Value-at-Risk via Rockafellar-Uryasev Conformal Inference</a></h3>
-            <p><strong>Catherine Yu-Chi Chen</strong>, Jingyan Shen, Zhun Deng, Lihua Lei</p>
-            <p><em>Proceedings of the 43rd International Conference on Machine Learning (ICML)</em>, 2026</p>
-          </article>
-
-          <article class="publication">
-            <h3><a href="https://proceedings.mlr.press/v267/chen25bd.html">Conformal Tail Risk Control for Large Language Model Alignment</a></h3>
-            <p><strong>Catherine Yu-Chi Chen</strong>, Jingyan Shen, Zhun Deng, Lihua Lei</p>
-            <p><em>Proceedings of the 42nd International Conference on Machine Learning (ICML)</em>, 2025</p>
-          </article>
-
-          <h3 class="subsection-title">Preprints</h3>
-          <article class="publication">
-            <h3><a href="https://arxiv.org/abs/2607.12345">Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach</a></h3>
-            <p><strong>Catherine Chen</strong>, Chen Gao, Jonathon Hazell, Lihua Lei, Chen Lian</p>
-            <p><em>arXiv preprint arXiv:2607.12345</em>, 2026</p>
-          </article>
-        </section>
-
-        <section id="teaching" class="section">
-          <h2>Teaching</h2>
-
-          <div class="teaching-group">
-            <h3>Instructor</h3>
-            <ul>
-              <li><span>CME 300Q: ICME Qualifying Exams Workshop</span><em>Spring 2024, Spring 2025</em></li>
-              <li><span>CME 192: Introduction to MATLAB</span><em>Winter 2025</em></li>
-            </ul>
-          </div>
-
-          <div class="teaching-group">
-            <h3>Teaching Assistant</h3>
-            <ul>
-              <li><span>CME 241: Reinforcement Learning with Applications in Finance</span><em>Winter 2026</em></li>
-              <li><span>MGTECON 614: Emerging Topic in Econometrics</span><em>Fall 2024, Spring 2026</em></li>
-              <li><span>CME 291: Master's Research</span><em>Fall 2024</em></li>
-              <li><span>CME 102: Ordinary Differential Equations</span><em>Fall 2023</em></li>
-              <li><span>MATH 1102: Multivariate Calculus</span><em>Fall 2021</em></li>
-            </ul>
-          </div>
-        </section>
-
-        <footer>
-          Layout inspired by <a href="https://lihualei71.github.io/index.html">Lihua Lei's website</a>.
-        </footer>
-      </main>
+<div class="row">
+    <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+        {% include widgets/profile_card_mini.html %}
     </div>
-  </body>
-</html>
+    <div class="col-lg-9 col-md-8">
+        {% include widgets/profile_card_bio_only.html %}
+    </div>
+</div>

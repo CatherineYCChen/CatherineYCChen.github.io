@@ -1,0 +1,16 @@
+url: "https://catherineycchen.github.io"
+baseurl: ""
+
+title: "Catherine Yu-Chi Chen"
+description: "Academic homepage of Catherine Yu-Chi Chen."
+
+markdown: kramdown
+
+collections:
+  publications:
+    output: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
