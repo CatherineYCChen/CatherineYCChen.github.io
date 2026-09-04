@@ -5,7 +5,5 @@ pages:
     url: /publications
   - name: Teaching
     url: /teaching
-  - name: Notes
-    url: /notes
   - name: CV
     url: /data/CChen-CV.pdf
